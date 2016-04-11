@@ -15,7 +15,7 @@ MONGODB_DB = 'taiwan'
 MONGOD_COLLECTION = 'soong'
 mongodb = conn[MONGODB_DB]
 collection = mongodb[MONGOD_COLLECTION]
-ACCESS_TOKEN = 'CAAPaGxj8KykBAINNQeD7rjQ9ztQh4iej295LxUDO8WP8c5gNed1KHJPIeiKdrWBfuy4ZAVgx9J1Q9rSYZBKT6mJ3ZCy0yTDY4yuo7ma5mFEGUorkKoN8Qfi5s3PWgxKqPZAJNDZAJvr0rB5ry9ZCDrfyXzINy9pgB71z0KOuzczquNEyjmthvPoZCkIdKhPao4ZD'
+ACCESS_TOKEN = ''
 localtime =  time.strftime("%Y-%m-%d ",time.localtime(time.time()))
 
 def main():
